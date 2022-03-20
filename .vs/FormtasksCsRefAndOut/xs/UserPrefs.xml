@@ -1,0 +1,25 @@
+﻿<Properties StartupConfiguration="{F94A8730-AEA6-458C-9E44-9021539DE554}|Default">
+  <MonoDevelop.Ide.ItemProperties.FormtasksCsRefAndOut PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FormtasksCsRefAndOut/Program.cs">
+    <Files>
+      <File FileName="FormtasksCsRefAndOut/Program.cs" Line="28" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="FormtasksCsRefAndOut" expanded="True">
+            <Node name="FormtasksCsRefAndOut" expanded="True">
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

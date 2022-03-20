@@ -6,7 +6,9 @@ namespace FormtasksCsRefAndOut
     {
         static void Main(string[] args)
         {
-            #region Formtask-1
+            #region Additions to tasks
+
+            #region Formtask-1 Addition
             //Sum(out int num1, out int num2);
             #endregion
 
@@ -15,7 +17,17 @@ namespace FormtasksCsRefAndOut
             //SwapMaxMin(numArray);
             #endregion
 
+            #region Formtask-3 Addition
+            //int[] numArray = { 1, 3, 3, 5, 7, 3, 2 };
+            //RepeatNum(numArray);
+            #endregion
+
+            #endregion
+
         }
+
+        #region Tasks(Methods)
+
         //Formtask-1: N-den m-e qeder ededlerin cemi(out ile)
         static void Sum(out int num1, out int num2)
         {
@@ -30,8 +42,8 @@ namespace FormtasksCsRefAndOut
             Console.WriteLine(sum);
         }
 
-        //Formtask-2: Massivdeki en boyuk ve en kicik ededlerin yerini deyisen metod
 
+        //Formtask-2: Massivdeki en boyuk ve en kicik ededlerin yerini deyisen metod
         static void SwapMaxMin(int[] numbers)
         {
             int max = numbers[0];
@@ -64,8 +76,25 @@ namespace FormtasksCsRefAndOut
 
 
         //Formtask-3: Verilmis massivde tekrar olunan ededlerin sayini cixarin
-        //https://github.com/yusifizcode/csharpIntroClassWork/blob/master/ClassWorkRefOut/ClassWorkRefOut/Program.cs
+        static void RepeatNum(int[] arr)
+        {
+            int count = 0;
+            for (int i = 0; i < arr.Length; i++)
+            {
+                for (int j = i + 1; j < arr.Length; j++)
+                {
+                    if (arr[i] == arr[j])
+                    {
+                        count++;
+                        break;
+                    }
+                }
+                // Console.WriteLine($"{arr[i]} {count} defe tekrarlanir");
 
+            }
+            Console.WriteLine(count);
+        }
 
+        #endregion
     }
 }
